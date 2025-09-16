@@ -1,0 +1,17 @@
+ 1. Which sections of the website are restricted for crawling?
+
+ /w/
+ /api/
+ /trap/
+ /wiki/Special:
+Language-specific restricted areas such as Articles for deletion, Files for deletion, Copyright problems, Sandbox, and other administrative/discussion pages.
+
+2. Are there specific rules for certain user agents?
+
+Yes. Some user agents like MJ12bot, DotBot, HTTrack, wget are completely blocked. Others like IsraBot and Orthogaffe are fully allowed.
+
+3. Why do websites use robots.txt?
+
+The robots.txt file tells crawlers what parts of a site they can or cannot access. This helps reduce server strain and protects sensitive or irrelevant content from being scraped or indexed
+
+
